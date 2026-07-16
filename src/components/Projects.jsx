@@ -8,17 +8,12 @@ const projects = [
     demo: "https://sports-booking-platform-five.vercel.app/",
   },
   {
-    name: "TPI Programación III / IV",
+    name: "Prode Deportivo",
     stack: "JavaScript",
-    desc: "Trabajos prácticos integradores desarrollados en equipo durante la Tecnicatura.",
+    desc: "Trabajo práctico integrador desarrollados en equipo durante la Tecnicatura. Sistema web de predicciones deportivas donde los usuarios pueden realizar pronósticos sobre partidos, consultar resultados y competir dentro de un ranking según sus aciertos.",
     repo: "https://github.com/valeledesma19/TPI-PROGRAMACION-4",
   },
-  {
-    name: "Actividades de Programación",
-    stack: "Java",
-    desc: "Ejercicios y prácticas de programación orientada a objetos resueltos durante la carrera.",
-    repo: "https://github.com/valeledesma19/ActividadesProg",
-  },
+
 ];
 
 export default function Projects() {
