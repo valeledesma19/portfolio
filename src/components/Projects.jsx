@@ -15,7 +15,7 @@ const projects = [
   },
   {
     name: "Prode Deportivo",
-    stack: "JavaScript · HTML · CSS",
+    stack: "Java · Spring Boot · React · PostgreSQL",
     desc: "Trabajo práctico integrador desarrollado en equipo durante la Tecnicatura. Sistema web de predicciones deportivas donde los usuarios pueden realizar pronósticos sobre partidos, consultar resultados y competir mediante un ranking según sus aciertos.",
     repo: "https://github.com/valeledesma19/TPI-PROGRAMACION-4",
   },
