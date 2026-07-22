@@ -1,19 +1,24 @@
 const projects = [
   {
     name: "Sports Booking Platform",
-    stack: "Java · Spring Boot · React",
-    // TODO: confirmá/ajustá esta descripción con el detalle real del proyecto.
-    desc: "Plataforma full stack para reservar turnos en instalaciones deportivas, con backend en Spring Boot y frontend en React.",
+    stack: "Java · Spring Boot · React · PostgreSQL",
+    desc: "Plataforma full stack para la gestión y reserva de instalaciones deportivas. Cuenta con autenticación JWT, roles de usuario y administrador, gestión de canchas, horarios disponibles y reservas.",
     repo: "https://github.com/valeledesma19/sports-booking-platform",
     demo: "https://sports-booking-platform-five.vercel.app/",
   },
   {
+    name: "Pet Shop E-commerce",
+    stack: "Java · Spring Boot · Next.js · TypeScript · PostgreSQL",
+    desc: "Aplicación web full stack para una tienda de mascotas. Incluye catálogo de productos, filtros, búsqueda, autenticación JWT, roles de usuario y administrador, gestión de productos y carga de imágenes.",
+    repo: "https://github.com/valeledesma19/Proyecto-Pet-Shop",
+    demo: "https://proyecto-pet-shop.vercel.app/",
+  },
+  {
     name: "Prode Deportivo",
-    stack: "JavaScript",
-    desc: "Trabajo práctico integrador desarrollados en equipo durante la Tecnicatura. Sistema web de predicciones deportivas donde los usuarios pueden realizar pronósticos sobre partidos, consultar resultados y competir dentro de un ranking según sus aciertos.",
+    stack: "JavaScript · HTML · CSS",
+    desc: "Trabajo práctico integrador desarrollado en equipo durante la Tecnicatura. Sistema web de predicciones deportivas donde los usuarios pueden realizar pronósticos sobre partidos, consultar resultados y competir mediante un ranking según sus aciertos.",
     repo: "https://github.com/valeledesma19/TPI-PROGRAMACION-4",
   },
-
 ];
 
 export default function Projects() {
